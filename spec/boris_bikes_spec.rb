@@ -1,4 +1,4 @@
-require './lib/bike'
+require 'boris_bikes'
 
 describe DockingStation do
   describe 'docking_station' do
@@ -9,7 +9,8 @@ describe DockingStation do
   end
   describe 'release_bike' do
     it 'returns new bike' do
-      expect(release_bike).to eq Bike.new
+      instance = DockingStation.new
+      expect(instance.release_bike).to be_a(Bike)
     end
   end
 end
