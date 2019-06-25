@@ -1,5 +1,5 @@
 class DockingStation
   def release_bike
-    return true
+    return Bike.new
   end
 end
