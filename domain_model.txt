@@ -1,0 +1,18 @@
+Nouns:
+- Person
+- Bike
+- Docking station
+
+Verbs:
+- Use
+- Like
+- Release
+
+  Objects | Messages
+  Person
+  Bike      Check
+            Condition
+  Docking   Contains
+  station   Bike &
+            Release
+            Bike
